@@ -37,7 +37,7 @@
             "type": "vcs",
             "url": "https://github.com/MrMYSTIC/php-psr-3-utilities"
         }
-    ]
+    ],
     "scripts": {
         "ensure-installed": "composer install --ansi -n -q",
         "cs": [
