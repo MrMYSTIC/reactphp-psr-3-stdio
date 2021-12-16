@@ -13,7 +13,7 @@
         "psr/log": "^1.1.2",
         "react/event-loop": "^1.0 || ^0.5 || ^0.4",
         "react/stream": "^1.1.0",
-        "wyrihaximus/psr-3-utilities": "^1.0"
+        "wyrihaximus/psr-3-utilities": "dev-master"
     },
     "require-dev": {
         "api-clients/cs-fixer-config": "^1.1",
@@ -32,6 +32,12 @@
     "config": {
         "sort-packages": true
     },
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/MrMYSTIC/php-psr-3-utilities"
+        }
+    ]
     "scripts": {
         "ensure-installed": "composer install --ansi -n -q",
         "cs": [
